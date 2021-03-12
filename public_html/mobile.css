@@ -1,0 +1,121 @@
+main {
+  padding: 10px;
+}
+#app header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  padding: 10px;
+  background-color: #6d0fc5;
+}
+.info {
+  text-shadow: 2px #6d0fc5;
+  text-align: center;
+}
+.info h1 {
+  color: #f8f8f8;
+}
+.info h2 {
+  margin-top: -10px;
+  font-size: 16pt;
+  color: yellow;
+}
+#app header img {
+  border-radius: 50px;
+  width: 350px;
+}
+#app main .index {
+  text-align: center;
+}
+
+#app main article {
+  margin-top: 10px;
+  margin-bottom: 00px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#app main article img {
+  margin-bottom: 10px;
+  width: 250px;
+}
+#app main article h1 {
+  color: #6d0fc5;
+}
+#app main article p {
+  max-width: 350px;
+}
+#app main article ul {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+#app main article li {
+  color: #6d0fc5;
+  font-weight: bolder;
+  margin-left: 10px;
+}
+::-webkit-scrollbar-track {
+  background-color: #6900ea;
+}
+::-webkit-scrollbar {
+  width: 6px;
+  background: #944ee9;
+}
+::-webkit-scrollbar-thumb {
+  background: #944ee9;
+}
+.sobre {
+  margin-top: 10px;
+  text-align: center;
+}
+.david {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.david img {
+  border-radius: 25%;
+  width: 350px;
+  margin-top: 10px;
+}
+.david .about h3 {
+  font-weight: bold;
+  color: #6d0fc5;
+  text-align: justify;
+  margin-top: 10px;
+  max-width: 470px;
+}
+ul {
+  margin-left: -25px;
+}
+.cc {
+  font-size: 25pt;
+}
+
+.cc i {
+  margin-left: 10px;
+  color: #6d0fc5;
+}
+footer{
+  padding: 10px;
+  background: #6d0fc5;;
+}
+.options{
+ display: flex;
+ align-items: center;
+ justify-content: spa;
+}
+
+.top i{
+  color: #f4f4f4;
+}
+img#link{
+  width: 10px;
+}

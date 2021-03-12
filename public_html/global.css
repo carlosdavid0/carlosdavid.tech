@@ -1,0 +1,28 @@
+.titulo{
+  display: flex;
+  align-items: center
+  
+}
+.titulo span{
+  color: red;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap");
+* {
+  text-decoration: none;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}.proj{
+  transition: all 400ms ;
+}
+.titulo h1:hover{
+  color: blue;
+}
+.proj:hover {
+  
+  cursor: pointer;
+  color: #360069;
+  
+}

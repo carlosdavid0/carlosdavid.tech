@@ -1,0 +1,78 @@
+@media (min-width: 800px) {
+  #app header{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+  }
+  #app header img {
+    width: 300px;
+  }
+ h1.title{
+   font-size: 35pt;
+ }
+
+ h2.sub{
+   font-size: 21pt;
+ }
+  .projetos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  main h1.index {
+    font-size: 30pt;
+  }
+  #app main article {
+    margin-bottom: 25px;
+    margin-left: 15px;
+  }
+.info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+  .david {
+    margin-left: 7rem;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+  }
+  .david img {
+    width: 300px;
+    margin-right: 30px;
+  }
+  .red{
+    margin-top: 10px;
+  }
+  
+.cc i:hover {
+ 
+  color: #360069;
+}
+.top i{
+  transition: 400ms;
+}
+.top i:hover{
+  
+  color: rgb(201, 201, 201);
+}
+.footer h1{
+  font-size: 25pt;
+  padding: 5px;
+}.top i {
+  margin-top: 40px;
+}
+.index{
+  padding: 15px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+}
